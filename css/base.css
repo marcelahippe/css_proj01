@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	margin: 0;
+}
+.top-bar { 
+	background-color: black;
+	height: 50px;
+}
+.top-bar .title {
+	color: #ccc;
+	float: left;
+}
+.form {
+	float: right;
+}
+.header {
+	background-color: #f0f0f0;
+	padding-top: 80px;
+	padding-bottom: 60px;
+}
+.header .title {
+	font-size: 42pt;
+}
+.description {
+	font-size: 14pt;
+}
+.content {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.main {
+	overflow: hidden;
+}
+footer [class*="col-"] {
+	border-top: 1px solid #ccc;
+	padding: 15px 0;
+}
